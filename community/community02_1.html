@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>공지사항</title>
+  <title>홍보자료</title>
 
   <!-- Main CSS : Header, Main, Footer -->
   <link rel="stylesheet" href="../css/main.css">
@@ -32,7 +32,7 @@
   <div id="header" class="sticky-top"></div>
 
   <!-- 메인 -->
-  <!-- 공지사항 -->
+  <!-- 홍보자료 -->
   <!-- COMMON -->
   <div class="commonSection1">
     <div class="commonContent1">
@@ -43,7 +43,7 @@
           <h3>COMMUNITY</h3>
         </div>
         <div>
-          <p><img src="../img/icon-home.png"> > 커뮤니티 > 공지사항</p>
+          <p><img src="../img/icon-home.png"> > 커뮤니티 > 홍보자료</p>
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" 
               role="button" data-toggle="dropdown" aria-expanded="false">
-              공지사항
+              홍보자료
           </a>
           <ul class="dropdown-menu asd">
             <li><a class="dropdown-item" href="../community/community01.html">공지사항</a></li>
@@ -89,70 +89,26 @@
     </div>
   </nav>
 
-  <!-- 공지사항 -->
+  <!-- 홍보자료 상세 -->
   <div class="wrap">
     <div class="main">
-      <div class="title1">공지사항</div>
+      <div class="title1">홍보자료</div>
       <div class="title2">The design and maintenance are excellent.</div>
-      <div class="Notice">
+      <div class="NoticeContent">
         <table>
-          <tr>
-            <th>번호</th>
-            <th>제목</th>
-            <th>작성일</th>
-          </tr>
-          <tr onclick="Noticecontent()">
-            <td>5</td>
-            <td>새로운 공지사항을 알려드립니다.</td>
-            <td>2022-07-05</td>
-          </tr>
-          <tr onclick="Noticecontent()">
-            <td>4</td>
-            <td>새로운 공지사항을 알려드립니다.</td>
-            <td>2022-07-05</td>
-          </tr>
-          <tr onclick="Noticecontent()">
-            <td>3</td>
-            <td>새로운 공지사항을 알려드립니다.</td>
-            <td>2022-07-05</td>
-          </tr>
-          <tr onclick="Noticecontent()">
-            <td>2</td>
-            <td>새로운 공지사항을 알려드립니다.</td>
-            <td>2022-07-05</td>
-          </tr>
-          <tr onclick="Noticecontent()">
-            <td>1</td>
-            <td>새로운 공지사항을 알려드립니다.</td>
-            <td>2022-07-05</td>
-          </tr>
+          <tr><th>제목</th><td>홍보자료를 소개합니다.</td></tr>
+          <tr><th>작성일</th><td>2022-07-05</td></tr>
+          <tr><td colspan="2">홍보자료를 소개합니다.</td></tr>
         </table>
       </div>
-      <div class="search">
-        <table>
-          <tr>
-            <td><select name="" id="">
-              <option value="1">제목</option>
-              <option value="2">내용</option>
-              <option value="3">작성자</option>
-            </select></td>
-            <td><input type="text"></td>
-            <td><input type="image" src="../img/community/search.gif"></td>
-          </tr>
-        </table>
+      <div class="list">
+        <button onclick="location.href='../community/community02.html'">
+          <img src="../img/community/list.gif" alt=""></button>
       </div>
     </div>
   </div>
 
-  <!-- search bar -->
-  
-
   <!-- 푸터 -->
   <div id="footer"></div>
-  <script>
-    function Noticecontent() {
-      location.href = '../community/community01_1.html';
-    }
-  </script>
 </body>
 </html>

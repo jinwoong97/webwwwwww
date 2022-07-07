@@ -14,40 +14,57 @@
 }
 /* 공지사항 */
 .Notice {
-  width: 100%;
+  width: 1020px;
+  margin: 30px auto;
 }
 .Notice table {
   width: 100%;
   height: auto;
   border-top: 2px solid black;
+  font-size: 14px;
 }
 .Notice tr {
-  border-bottom: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgb(224, 223, 223);
   cursor: pointer;
   height: 50px;
+}
+.Notice td {
+  color: #8b8b8b;
 }
 .Notice td:nth-child(2) {
   text-align: left;
   padding-left: 20px;
 }
+.Notice td:nth-child(2):hover {
+  color: #333333;
+}
 /* 제목줄 */
 .Notice table tr:nth-child(1) {
   background-color: rgb(236, 236, 236);
+  cursor: default;
 }
-.Notice td {
+.Notice th {
   color: #777;
-  font-size: 14px;
 }
 
 /* search bar */
 .search {
+  width: 1020px;
+  margin: auto;
   padding-bottom: 50px;
+}
+.search select {
+  height: 25px;
+  color: #8b8b8b;
+  border: 1px solid #8b8b8b;
+  font-size: 13px;
 }
 .search input[type="text"] {
   height: 25px;
+  border: 1px solid #8b8b8b;
 }
 .search input[type="image"] {
-  border: 1px solid black;
+  border: 1px solid #8b8b8b;
   width: 26px;
 }
 .search td {
@@ -59,10 +76,14 @@
 
 /* 공지사항 상세 */
 .NoticeContent {
+  width: 1020px;
+  margin: auto;
+  margin-top: 30px;
   border-top: 2px solid black;
 }
 .NoticeContent table {
   width: 100%;
+  font-size: 14px;
 }
 .NoticeContent tr {
   border-bottom: 1px solid rgb(207, 207, 207);
@@ -70,11 +91,10 @@
 }
 .NoticeContent th {
   background-color: rgb(241, 241, 241);
-  width: 30%;
+  width: 20%;
 }
 .NoticeContent td {
   color: #777;
-  font-size: 14px;
   text-align: left;
   padding-left: 5px;
 }
@@ -83,73 +103,34 @@
   padding-top: 20px;
   padding-left: 10px;
 }
-.container007 {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.list {
+  text-align: start;
   width: 1020px;
+  margin: auto;
 }
-.table_02 td {
-  border-bottom: 1px #cccccc solid;
-  border-right: 0px #e5e5e5 solid;
-  padding: 4px;
-  color: #777;
-  font-size: 14px;
-  height: 54px;
+button {
+  padding: 10px 15px 100px;
+  background-color: transparent;
+  border: none;
 }
-td {
-  display: table-cell;
-  vertical-align: inherit;
-}
-.tit-sub01 {
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  color: #222;
-  margin: 50px 0 0px 0;
-}
-.tit-sub02 {
-  text-align: center;
-  font-size: 13px;
-  font-weight: normal;
-  color: #999;
-  margin: 5px 0 45px 0;
-  font-family: 'Open Sans', Arial, Verdana, sans-serif;
-}
-.table_02 {
-border-top: 2px solid black;
-}
-select {
-  font-size: 13px;
-  padding: 4px 5px 4px 5px;
-  border: 1px solid #aaa;
-  padding-right: 10px;
-}
-input {
-  font-size: 13px;
-  padding: 5px 5px 5px 5px;
-  margin: 0;
-  margin-left: 5px; 
-  border: 1px solid #aaa;
-  height: 31px;
-}
-button, input {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-button, select {
-    text-transform: none;
-}
-button, input {
-  overflow: visible;
-}
-td a:visited {
-  color: #777;
-}
-td a:hover {
-  text-decoration: none;
-  color: black;
+
+@media (max-width: 1024px) {
+  .Notice {
+    width: 100%;
+  }
+  .Notice table {
+    font-size: 13px;
+  }
+  .NoticeContent {
+    width: 100%;
+  }
+  .NoticeContent table {
+    font-size: 13px;
+  }
+  button {
+    margin-bottom: 60px;
+  }
+  .list {
+    width: 100%;
+  }
 }
