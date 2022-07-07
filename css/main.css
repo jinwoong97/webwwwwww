@@ -487,24 +487,50 @@ div {
 
 /* footer */
 .footer {
-  height: 250px;
-  background-color: rgb(54, 54, 54);
-}
-.footer div a {
-  color: white;
-}
-.footer div a:hover {
-  text-decoration: none;
-}
-.footer div span {
-  color: rgb(163, 163, 163);
-}
-.footer div label {
-  color: white;
-  font-size: 10px;
+  background-color: #363636; 
 }
 .footer div {
-  padding-top: 15px;
+  display: block;
+}
+.fa {
+  text-align: center;
+  padding-top: 40px;
+}
+.fa a {
+  margin: 10px;
+  font-size: 13px;
+}
+.fa a::after {
+  content: 'l';
+  color: #777;
+  margin-left: 10px;
+  margin-right: -10px;  
+}
+.fa a:last-child::after {
+  content: '';
+} 
+.fa a:link {
+  color: white;
+}
+.fa a:visited {
+  color: white;
+}
+.hide {
+  display: inline;
+}
+.fp {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(160, 160, 160);
+  font-size: 14px;
+}  
+.fi {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+.footer img {
+  padding: 0 3px;
 }
 
 /* 테블릿 */
@@ -541,17 +567,14 @@ div {
   }
   
   /* footer */
-  .footer div a:nth-child(1) {
-    display: none;
-  }
-  .footer div a:nth-child(4) {
-    display: none;
-  }
-  .footer div a:nth-child(5) {
-    display: none;
-  }
-  .footer div span {
+  .footer p {
     font-size: 12px;
+  }
+  .fa a:nth-child(3)::after {
+    content: '';
+  } 
+  .hide {
+    display: none;
   }
 }
 @media (min-width: 1280px) {
@@ -562,8 +585,5 @@ div {
 @media (max-width: 1024px) {
   .title1 {
       font-size: 24px;
-  }
-  .mainBtn {
-    font-size: 11px;
   }
 }
