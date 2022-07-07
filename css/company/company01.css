@@ -1,186 +1,233 @@
-.container005 {
-    width: 1200px;
-}
-.container005 {
-    padding-right: 15px;
-    padding-left: 15px;
+.companyWrap {
     margin-right: auto;
     margin-left: auto;
 }
-.tit-sub01 {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 500;
-    color: #222;
-    margin: 50px 0 0px 0;
-}
-.tit-sub02 {
-    text-align: center;
-    font-size: 13px;
-    font-weight: normal;
-    color: #999;
-    margin: 5px 0 45px 0;
-    font-family: 'Open Sans', Arial, Verdana, sans-serif;
-}
-.ts01 {
-    color: #444;
-    font-size: 28px;
-    margin: 0px 0 20px 0;
-    font-weight: normal;
-    text-align: center;
-}
-.ts02 {
-    color: #777;
-    font-size: 16px;
-    margin: 0px 0 0 0;
-    font-weight: normal;
-    text-align: center;
-}
-.center-block {
+div {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
-.img-design {
-    vertical-align: middle;
-}
-.img-design {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 70px;
-}
-.container002 {
-    width: 100%;
+.company {
     margin: 0 auto;
-    background-color: #f6f6f6;
-    padding: 60px 0 60px 0;
-}
-.ts03 {
-    color: #444;
-    font-size: 30px;
-    margin: 18px 0 20px 0;
-    font-weight: normal;
-}
-.ts04 {
-    color: #777;
-    font-size: 16px;
-    margin: 0px 0 32px 0;
-    font-weight: normal;
-}
-.tb01 {
-    font-size: 16px;
-    color: #666;
-    padding: 0 0 0 11px;
-    margin: 0 0 5px 0;
-    background: url(/img/company/blet01.png) 0px 10px;
-    background-repeat: no-repeat;
-}
-.tc02 {
-    color: #e01d31;
-    text-decoration: none;
-}
-.img-designk {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    height: auto;
-    height: 400px;
-}
-.container-sc {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 20px;
-    width: 1025px;
-}
-.co-wrap {
-    text-decoration: none;
-    background: #f7f7f7;
-    border: 1px solid #ccc;
-    padding: 80px 15px 50px 15px;
-}
-.tit-sub03 {
-    text-align: center;
-    font-size: 36px;
-    color: #222;
-    font-weight: normal;
-    margin: 0;
-}
-.tit-sub04 {
-    text-align: center;
-    font-size: 17px;
-    font-weight: normal;
-    color: #999;
-    margin: 5px 0 40px 0;
-}
-.co-wrap h3 {
-    color: #333;
-    font-size: 17px;
-    font-weight: bold;
-    margin: 15px 0 0 0;
-}
-.co-wrap h5 {
-    color: #777;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 5px 0 0 0;
-}
-.co-wrap .co-title {
     text-align: center;
 }
-.dfs-line01 {
-    margin: 70px -10px 70px -10px;
-    border-top: 1px solid #e5e5e5;
-}
-#history-box {
-    width: 900px;
-    margin: 0 0 0 0;
-    text-align: center;
+.comHeader {
     margin: 0 auto;
-    list-style: none;
+    padding: 15px;
+    width: 990px;
 }
-#history-box dt {
-    float: left;
-    text-align: left;
-    font-weight: bold;
-    font-size: 34px;
-    color: #333;
-    padding: 20px 0 5px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+.head1 {
+    margin-top: 40px;
+    font-size: 28px;
 }
-#history-box dd ul li {
-    position: relative;
-    text-align: left;
-    padding: 10px 0 10px 50px;
-    font-size: 15px;
-    list-style: none;
-    color: rgb(124, 121, 121);
-}
-#history-box dd {
-    text-align: left;
-    padding: 20px 0px 0px 100px;
-}
-#history-box dl {
-    font-weight: normal;
-    border-top: 1px dotted #999999;
-}   
-#history-box dd .num {
-    position: absolute;
-    left: 10px;
-}
-dl {
-    margin-top: 0;
+.head2 {
     margin-bottom: 20px;
+    font-size: 16px;
+    color: #777777;
 }
-#history-box dl:nth-child(1) {
-    border-top: 0
+.comHeader img {
+    margin: 20px;
 }
-#history-box dl:nth-child(3) {
-    margin-bottom: 100px;
+
+/* 섹션1 */
+.comSection1 {
+    margin: 20px 0;
+    color: #777777;
+    background-color: rgb(247, 247, 247);
+    font-size: 16px;
+}
+.section1Div {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    padding: 60px 10px;
+}
+.section1Img {
+   flex: 1 45%;
+   padding: 20px; 
+}
+.section1Img img {
+    width: 470px;
+}
+.section1Str {
+    flex: 1 45%;
+    padding: 20px;
+    width: 500px;
+    text-align: start;
+}
+.secp1 {
+    color: #444444;
+    font-size: 30px;
+}
+.secp3 {
+    padding-left: 20px;
+}
+.strRed {
+    color: #E01D31;
+}
+
+/* 섹션2 */
+.comSection2 {
+    width: 920px;
+    margin: auto;
+    color: #777777;
+}
+.section2Div {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;   
+    border-bottom: 1px solid #cecdcd;
+}
+.section {
+    flex: 1;
+    margin: 10px;
+    padding: 50px 10px 30px;
+    width: 205px;
+    border: 1px solid #cecdcd;
+    background-color: rgb(247, 247, 247);
+}
+.cardTitle {
+    margin-top: 15px;
+    color: #333333;
+    font-size: 17px;
+    font-weight: 500;
+}
+.card-text {
+    font-size: 14px;
+}
+
+/* 섹션3 */
+.comSection3 {
+    margin-bottom: 50px;
+    padding: 15px;
+    font-size: 15px;
+}
+.history {
+    width: 900px;
+    margin: auto;
+    text-align: start;
+    color: #777777;
+    border-bottom: 1px dotted #777777;
+}
+.history:nth-of-type(3) {
+    border: none;
+}
+.header1 {
+    display: none;
+    color: #333333;
+    font-weight: bold;
+}
+.header2 {
+    color: #333333;
+    font-size: 34px;
+    font-weight: bold;
+}
+.data {
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+}
+.data1 {
+    padding-right: 10px;
+}
+
+
+@media (min-width: 1280px) {
+    .comHeader {
+        width: 1200px;
+    }
+
+    .section1Div {
+        width: 1200px;
+    }
+    .section1Img img {
+        width: 560px;
+    }
+    .section1Str {
+        width: 600px;
+    }
+
+    .comSection2 {
+        width: 1020px;
+    }
+    .section {
+        width: 230px;
+    }
+  }
+
+@media (max-width: 1024px) {
+    .comTit1 {
+      font-size: 24px;
+    }
+    .comHeader {
+        width: 100%;
+    }
+    .head1 {
+        font-size: 19px;
+    }
+    .head2 {
+        text-align: start;
+        font-size: 13px;
+    }
+    .comSection1 {
+        font-size: 13px;
+    }
+    .section1Img img {
+        width: 100%;
+    }
+    .secp1 {
+        font-size: 20px;
+    }
+
+    .comSection2 {
+        width: 100%;
+    }
+    .section {
+        flex: 1 22%;
+    }
+    .cardTitle {
+        font-size: 15px;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+
+    .history {
+        width: 100%;
+        font-size: 13px;
+    }
+    .header1 {
+        display: block;
+        font-size: 24px;
+        padding: 10px;
+    }
+    .header2 {
+        display: none;
+    }
+    .data p {
+        position: relative;
+        top: 5px;
+        right: 75px;
+    }
+    .data1 {
+        padding-right: 30px;
+    }
+    
+    
+  }
+
+  /* 모바일 */
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .section1Div {
+        padding: 30px 10px;
+    }
+    .section1Img {
+        flex: 1 100%; 
+    }
+     .section1Str {
+        flex: 1 100%;
+    }
+    
+    
+    .section {
+        flex: 1 46%;
+    }
 }
