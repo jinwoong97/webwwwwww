@@ -15,16 +15,14 @@ table tr:nth-child(1) td {
 }
 table tr:nth-child(2) td {
   font-size: 12px;
-  padding-top: 20px;
+  padding: 20px 0;
 }
 table tr:nth-child(3) {
-  height: 80px;
+  height: 40px;
   background-color: rgb(253, 242, 232);
 }
-table tr:nth-child(3) img {
-  padding-left: 10px;
-}
 input[type="password"] {
+  width: 200px;
   height: 20px;
   text-align: left;
   font-size: 12px;
@@ -36,11 +34,12 @@ div div:nth-child(2) {
   padding-bottom: 20px;
 }
 div div:nth-child(3) {
+  margin-top: 80px;
   text-align: right;
+  height: 30px;
   background-color: rgb(236, 236, 236);
 }
-
-.closeBtn {
-  padding-top: 5px;
-  padding-right: 5px;
+.popBtn {
+  border: none;
+  background-color: transparent;
 }

@@ -17,7 +17,31 @@
 
 </head>
 <body>
-  
+  <div class="wrap">
+    <div class="main">
+        <table>
+          <tr><td>비밀번호입력</td></tr>
+          <tr><td>글 작성시 입력한 비밀번호를 입력하세요.</td></tr>
+          <tr><td><img src="../img/customer/txt_pass.gif">
+          <input type="password" id="password"></td></tr>
+        </table>
+        <div class="ps2"><button class="popBtn" onclick="popclick()"><img src="../img/customer/btn_confirm.gif"></button></div>
+        <div class="pf"><button class="popBtn" onclick="window.close()"><img src="../img/member/btn_close.gif" alt=""></button></div>
+    </div>
+    
+</div>
+<script>
+  function popclick() {
+	    var obPassword = document.getElementById("password");
+      if (!obPassword.value) {
+        alert("비밀번호를 입력하세요.");
+        obEmail.focus();	
+        return;
+      } else {
+        alert('비밀번호가 올바르지 않습니다.');
+      }
+  }
+</script>
   
 </body>
 </html>

@@ -1,51 +1,59 @@
-.container012 {
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.qna {
+    width: 1020px;
+    margin: 30px auto 10px auto;
+  }
+.qna table {
+width: 100%;
+height: auto;
+border-top: 2px solid black;
+font-size: 14px;
 }
-.tit-sub01 {
-    text-align: center;
-    font-size: 28px;
-    font-weight: 500;
-    color: #222;
-    margin: 50px 0 0px 0;
+.qna tr {
+border-bottom: 1px solid rgb(224, 223, 223);
+height: 50px;
 }
-.tit-sub02 {
-    text-align: center;
-    font-size: 13px;
-    font-weight: normal;
-    color: #999;
-    margin: 5px 0 45px 0;
-    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+.qna td {
+color: #8b8b8b;
 }
-.table_02 td {
-    border-bottom: 1px #ddd solid;
-    border-right: 0px #e5e5e5 solid;
-    padding: 4px;
-    color: #555555;
-    font-size: 12px;
-    line-height: 18px;
-    padding-left: 10px;
+.qna td:nth-child(2) {
+text-align: left;
+padding-left: 20px;
 }
-.table_02 {
-    border-top: 2px solid black;
+.qna th {
+width: 20%;
+background-color: rgb(236, 236, 236);
+color: #777;
 }
-.input_border {
-    font-size: 12px;
-    color: #333333;
-    border: 1 solid #ccc;
+
+.qna select {
+font-size: 12px;
 }
-input {
-    padding: 5px 5px 5px 5px;
-    margin: 0 0 0 2px;
-    border: 1px solid #ccc;
+.qna input {
+width: 600px;
+height: 30px;
+border: 1px solid rgb(218, 218, 218);
 }
-textarea {
-    width: 91%;
-    border: 1px solid #ccc;
+.qna textarea {
+width: 600px;
+height: 250px;
+margin: 5px 0;
+border: 1px solid rgb(218, 218, 218);
 }
-.formmail_title_bgcolor {
-    background-color: #F7F7F7;
+
+.Confirm {
+margin-bottom: 80px;
+}
+button {
+padding: 5px;
+background-color: transparent;
+border: none;
+}
+
+@media (max-width: 1024px) {
+.qna {
+    width: 100%;
+}
+.Confirm {
+    margin-bottom: 40px;
+}
 }
