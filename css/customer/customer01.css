@@ -57,3 +57,11 @@ border: none;
     margin-bottom: 40px;
 }
 }
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    .qna input {
+        width: 90%;
+    }
+    .qna textarea {
+        width: 90%;
+    }
+}
