@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 여부 및 실명확인</title>
+
+     <!-- Main CSS : Header, Main, Footer -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/member/join.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- Bootstarp JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="popwrap">
+        <div class="pop">
+            <div class="popHeader">회원가입여부 및 실명확인</div>
+            <div class="popSection1">
+                <div class="popStr1">등록된 회원이 아닙니다.</div>
+                <div class="popStr2">회원으로 가입하시면 보다 다양한 서비스를 받으실 수 있습니다.</div>
+            </div>
+            <div class="popSection2"><button class="popBtn" onclick="popclick()"><img src="../img/member/btn_join.gif"></button></div>
+            <div class="popFooter"><button class="popBtn" onclick="window.close()"><img src="../img/member/btn_close.gif" alt=""></button></div>
+        </div>
+        
+    </div>
+    <script>
+        function popclick() {
+            opener.location.href='../member/join2.html';
+            window.close();
+
+        }
+    </script>
+</body>
+</html>

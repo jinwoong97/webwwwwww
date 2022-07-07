@@ -49,73 +49,74 @@
   </div>
 
   <!-- 메인 -->
+ 
   <!-- 회원가입 -->
-  <div class="joinForm container">
-    <div class="joinSection1">
-      <div><h3>회원가입</h3></div>
-      <div><p>The design and maintenance are excellent.</p></div>
+  <div class="wrap">
+    <div class="main">
+      <div class="title1"><p>회원가입</p></div>
+    <div class="title2"><p>The design and maintenance are excellent.</p></div>
+    <div class="joinBox1">
+      <div class="boxStr1">OOO사이트에 오신 것을 환영합니다.</div>
+      <div class="boxStr2">-이름과 이메일을 입력해 주시면 가입여부를 확인 후 회원가입 절차가 이루어집니다.</div>
     </div>
-    <div class="wellcome">
-      <h3>OOO사이트에 오신 것을 환영합니다.</h3>
-      <h5>-이름과 이메일을 입력해 주시면 가입여부를 확인 후 회원가입 절차가 이루어집니다.</h5>
+    <div class="joinBox2">
+      <img class="boxImg" src="../img/member/img_name.gif"><br>
+      <span class="name"><input class="joinInput" type="text" name="name" id="name"><br></span>
+      <img class="boxImg" src="../img/member/img_email.gif"><br>
+      <input class="joinInput" type="text" name="email" id="email">
+      <button onclick="javascript:GoToEnroll()" class="joinBtn"><img src="../img/member/btn_confirm01.gif"></button>
+      
     </div>
+    </div>
+    
+    
+  </div> 
 
-    <!-- 이용약관 -->
-    <div class="term1">
-      <div>이용약관</div>
-      <div>
-        <textarea name="" id="" cols="30" rows="10">
-          이용약관
-        </textarea>
-        <div><input class="check" type="checkbox">위 약관에 동의합니다.</div>
-      </div>
-    </div>
-    <!-- 개인정보보호정책 -->
-    <div class="term2">
-      <div>개인정보보호정책</div>
-      <div>
-        <textarea name="" id="" cols="30" rows="10">
-          개인정보보호정책
-        </textarea>
-        <div><input class="check" type="checkbox">위 개인정보취급방침에 동의합니다.</div>
-      </div>
-    </div>
-    <!-- 개인정보의 수집 및 이용목적 -->
-    <div class="term3">
-      <div>개인정보의 수집 및 이용목적</div>
-      <div>
-        <textarea name="" id="" cols="30" rows="10">
-          개인정보의 수집 및 이용목적
-        </textarea>
-        <div><input class="check" type="checkbox">위 개인정보의 수집 및 이용목적에 동의합니다.</div>
-      </div>
-    </div>
 
-    <div class="imageBtn">
-      <input type="image" src="../img/member/btn_join.gif" onclick="agree()">
-    </div>
-  </div>
   <!-- 푸터 -->
   <div id="footer"></div>
 
   <script>
-    // 약관동의 3개 체크박스를 확인.
-    function agree() {
-      //다 동의 한것으로 설정.
-      let isAllCheck = true;
-      var checkboxArray = document.getElementsByClassName('check');
-      for( var cbx of checkboxArray ) {
-        if( cbx.checked == false ) {
-          isAllCheck = false;
-          break; //탈출
-        }
-      }
-      if( isAllCheck == true ) {
-        window.location.href = "./join2.html";
-      }else{
-        alert("이용약관에 모두 동의하셔야 회원으로 가입하실 수 있습니다.");
+    function CheckEmail(str) {
+      var reg_email = /^([0-9a-zA-Z_\.-]+)@([0-9a-zA-Z_-]+)(\.[0-9a-zA-Z_-]+){1,2}$/;
+      if(!reg_email.test(str)){
+        return false;
+      } else {
+        return true;
       }
     }
+
+    function GoToEnroll() {
+      var obName = document.getElementById("name").value;
+      var obEmail = document.getElementById("email");
+      if( obName.length < 2 || isEmpty(obName) ) {
+          alert("이름을 다시 확인해주세요.");
+          document.getElementById('name').focus();
+          return false;
+        } else if (!obEmail.value) {
+        alert("이메일을 입력하세요.");
+        obEmail.focus();	
+        return;
+        }
+        else {
+          if(!CheckEmail(obEmail.value))	{
+            alert("이메일 형식이 잘못되었습니다.");
+            obEmail.focus();
+            return;
+          }
+        }
+        window.open('../member/join_pop.html');        
+    }
+    var isEmpty = function(value){
+      if( value == "" || value == null || value == undefined 
+          || ( value != null && typeof value == "object" &&
+                !Object.keys(value).length ) ){    
+        return true;
+      }else{
+        return false;
+      }
+    };
+
   </script>
 </body>
 </html>

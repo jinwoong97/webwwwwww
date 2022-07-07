@@ -49,54 +49,29 @@
   </div>
 
   <!-- 로그인 -->
-  <div class="loginForm container text-center">
-    <div class="loginSection1">
-      <div><h3>로그인</h3></div>
-      <div><p>The design and maintenance are excellent.</p></div>
-    </div>
-    <div class="loginMain">
-      <table class="main1">
-        <tr>
-          <td>
-            아이디 <br>
-            비밀번호
-          </td>
-          <td>
-            <input type="text" name="loginID"> <br>
-            <input type="password" name="loginPW">
-          </td>
-          <td>
-            <!-- input타입 이미지 -->
-            <input class="loginImg" type="image" src="../img/member/btn_login.gif">
-            <!-- <a> <img> </a> -->
-            <!-- <button> <img> </button> -->
-          </td>
-        </tr>
-      </table>
-
-      <!-- 아이디찾기 비번찾기 -->
-      <div class="loginSection2">
-        <table class="main2">
-          <tr>
-            <td>-아이디를 잊으셨나요?</td>
-            <td>
-              <input type="image" src="../img/member/btn_id_find.gif"
-                     onclick="window.open('idFind.html', '아이디찾기', 'width=440,height=320')" >
-            </td>
-          </tr>
-          <tr>
-            <td>-비밀번호를 잊으셨나요?</td>
-            <td>
-              <input type="image" src="../img/member/btn_pw_find.gif"
-                     onclick="window.open('passwordFind.html', '비밀번호찾기', 'width=440,height=320')" >
-            </td>
-          </tr>
-        </table>
-      </div>
-
-    </div>
+  <div class="wrap">
+    <div class="main">
+      <div class="title1"><p>로그인</p></div>
+      <div class="title2"><p>The design and maintenance are excellent.</p></div>
+      <div class="loginBox">   
+          <form action="">
+          <span class="loginId"><label>아이디</label><input class="loginInput" type="text" id="id"></span>  <br>
+          <label>비밀번호</label><input class="loginInput" type="password" id="pw">
+            <input class="loginSubmit" type="submit" value="로그인">       
+          </form>
+          <hr>          
+        <div class="loginHelp">
+          <p>-아이디를 잊으셨나요?
+            <button onclick="window.open('../member/idFind.html', '', 'width=430, height=350')" class="loginHelpBtn"><img src="../img/member/btn_id_find.gif" alt=""></button>
+            </p>
+          <p>-비밀번호를 잊으셨나요?
+            <button onclick="window.open('../member/passwordFind.html', '', 'width=430, height=360')" class="loginHelpBtn"><img src="../img/member/btn_pw_find.gif" alt=""></button>
+            </p>
+        </div>
+      </div>    
+    </div>    
   </div>
-
+      
 
   <!-- 푸터 -->
   <div id="footer"></div>
