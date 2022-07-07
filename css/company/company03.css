@@ -1,5 +1,6 @@
+/* 지도 */
 .companyMapTitle {
-  padding-top: 20px;
+  padding: 20px;
 }
 .companyMapTitle p {
   color: rgb(174, 174, 174);
@@ -42,128 +43,37 @@
 .companyMapContent td {
   padding-left: 10px;
 }
-.t1 {
-  width: 100%;
-  font-size: 13px;
-}
-.t1 {
-  width: 100%;
-  margin: 0 auto;
-  border-left: 0px solid #ddd;
-  border-right: 0px solid #ddd;
-  border-top: 3px solid #555;
-  border-bottom: 1px solid #ddd;
+/* 지도 끝 */
+.comTable {
+  margin-bottom: 80px;
+  border-top: 3px solid rgb(100, 100, 100);
+  color: #777777;
   font-size: 15px;
 }
-table {
-  background-color: transparent;
+.table {
+  border-bottom: 1px solid #dee2e6;
 }
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-  height: 120px;
-}
-.map {
-  width: 100%;
-  margin-bottom: 50px;
-}
-.container004 {
-    width: 1200px;
-}
-.container004 {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.tit-sub01 {
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-  color: #222;
-  margin: 50px 0 0px 0;
-}
-.tit-sub02 {
-  text-align: center;
-  font-size: 13px;
-  font-weight: normal;
-  color: #999;
-  margin: 5px 0 45px 0;
-  font-family: 'Open Sans', Arial, Verdana, sans-serif;
-}
-.t1 th {
-  padding: 20px 20px 20px 20px;
-  background-color: #fafafa;
-  color: #555;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  text-align: center;
-}
-.t1 td {
-  padding: 20px 20px 20px 20px;
-  background-color: #ffffff;
-  color: #777;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  text-align: left;
-}
-  #footer-wrap01 {
-    width: 100%;
-    position: relative;
-    background-color: #333;
-    padding: 50px 0 5px 0;
-  }
-  #footer-wrap02 {
-    width: 100%;
-    position: relative;
-    clear: both;
-    margin: 0;
-    padding: 5px 0 30px 0;
-    background-color: #333;
-    border-top: 0px solid #ddd;
-}
-.policy {
-    text-align: center;
-    color: #eee;
-    font-size: 14px;
-    margin: 0 auto;
-}
-.address {
-  text-align: center;
-  color: #999;
-  font-size: 14px;
-  padding: 3px 0 5px 0;
-  line-height: 24px;
-}
-.fnb-fi {
-  position: relative;
-  left: 45%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px 0 0;
-}
-.fnb-fi li {
-  list-style: none;
-  float: left;
-  margin-left: 10px;
-}
-.copy {
-  text-align: center;
-  color: #999;
-  font-size: 13px;
-}
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-.policy a:visited {
-  color: white;
+.tableData1 {
+  width: 30%;
+  color: #555555;
+  background-color: rgb(247, 247, 247);
   font-weight: bold;
 }
-.policy-line-trans {
-  color: #777;
-  font-size: 11px;
-  margin: 0 10px 0 10px;
-  font-family: 돋움, 굴림;
+.tableData2 {
+  text-align: start;
+  border-left: 1px solid #dee2e6;
+}
+@media (min-width: 1280px) {
+  .company {
+      width: 1200px;
+  } 
+}
+@media (max-width: 1024px) {
+  .comTit1 {
+    font-size: 24px;
+  }
+  .comTable {
+    margin-bottom: 40px;
+    font-size: 13px;
+  }
 }

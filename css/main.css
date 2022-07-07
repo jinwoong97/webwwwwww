@@ -3,6 +3,40 @@
   margin: 0;
   padding: 0;
 }
+.wrap {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div {
+  display: block;
+}
+.main {
+  margin: 0 auto;
+  text-align: center;
+}
+.title1 {
+  box-sizing: border-box;
+  margin-top: 40px;
+  font-size: 28px;
+  line-height : 15px;
+}
+.title2 {
+  margin: 15px;
+  font-size: 13px;
+  color: #9b9b9b;
+  line-height : 15px;    
+}
+.head1 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+.head2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #777777;
+}
 /* 플로팅버튼 */
 .toTopScroll {
   position: fixed;
@@ -453,24 +487,50 @@
 
 /* footer */
 .footer {
-  height: 250px;
-  background-color: rgb(54, 54, 54);
-}
-.footer div a {
-  color: white;
-}
-.footer div a:hover {
-  text-decoration: none;
-}
-.footer div span {
-  color: rgb(163, 163, 163);
-}
-.footer div label {
-  color: white;
-  font-size: 10px;
+  background-color: #363636; 
 }
 .footer div {
-  padding-top: 15px;
+  display: block;
+}
+.fa {
+  text-align: center;
+  padding-top: 40px;
+}
+.fa a {
+  margin: 10px;
+  font-size: 13px;
+}
+.fa a::after {
+  content: 'l';
+  color: #777;
+  margin-left: 10px;
+  margin-right: -10px;  
+}
+.fa a:last-child::after {
+  content: '';
+} 
+.fa a:link {
+  color: white;
+}
+.fa a:visited {
+  color: white;
+}
+.hide {
+  display: inline;
+}
+.fp {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(160, 160, 160);
+  font-size: 14px;
+}  
+.fi {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+.footer img {
+  padding: 0 3px;
 }
 
 /* 테블릿 */
@@ -507,16 +567,23 @@
   }
   
   /* footer */
-  .footer div a:nth-child(1) {
-    display: none;
-  }
-  .footer div a:nth-child(4) {
-    display: none;
-  }
-  .footer div a:nth-child(5) {
-    display: none;
-  }
-  .footer div span {
+  .footer p {
     font-size: 12px;
+  }
+  .fa a:nth-child(3)::after {
+    content: '';
+  } 
+  .hide {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+  .main {
+      width: 1200px;
+  }
+}
+@media (max-width: 1024px) {
+  .title1 {
+      font-size: 24px;
   }
 }
