@@ -1,0 +1,70 @@
+.busSection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.section {
+    flex: 1 25%;
+    text-align: start;
+    margin: 20px;
+    max-width: 340px;
+    border: 1px solid #cecdcd;
+    position: relative;
+    
+}
+.section::after {
+    content: '';
+    display: block;
+    padding-top: 100px;
+}
+.section img {
+    width: 100%;
+    height: 65%;
+}
+.secp1 {
+    margin: 5px;
+}
+.secp2 {
+    margin: 5px;
+    color: #777777;
+}
+
+@media (min-width: 1280px) {
+    .business {
+        width: 1200px;
+    }
+    .section {
+        max-width: 400px;
+    }
+}
+@media (max-width: 1024px) {
+    .busTit1 {
+        font-size: 24px;
+        margin-top: 30px
+    }
+    .head1 {
+        font-size: 19px;
+    }
+    .head2 {
+        text-align: start;
+        font-size: 13px;
+    }
+    .busSection {
+        margin-bottom: 60px;
+    }
+    .section {
+        width: 100%;
+    }
+     .secp1 {
+        font-size: 14px;
+     }
+     .secp2 {
+        font-size: 13px;
+     }
+} 
+@media screen and (max-width: 767px)  {
+    .section {
+        flex: 1 40%;
+    }
+}

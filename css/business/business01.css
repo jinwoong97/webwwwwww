@@ -1,0 +1,53 @@
+.section {
+    /* border: 1px solid black; */
+    width: 870px;
+    margin: 60px auto 80px auto;
+}
+.section img {
+    width: 100%;
+}
+.secp1 {
+    text-align: start;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #333333;
+}
+.secp2 {
+    text-align: start;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #777777;
+}
+
+/* 17 15 - 14 13 */
+@media (min-width: 1280px) {
+    .business {
+        width: 1200px;
+    }
+    .section {
+        width: 970px;
+    }
+}
+@media (max-width: 1024px) {
+    .busTit1 {
+        font-size: 24px;
+        margin-top: 30px
+    }
+    .head1 {
+        font-size: 19px;
+    }
+    .head2 {
+        text-align: start;
+        font-size: 13px;
+    }
+    .section {
+        width: 100%;
+        margin: 40px 0;
+     }
+     .secp1 {
+        font-size: 14px;
+     }
+     .secp2 {
+        font-size: 13px;
+     }
+}    
