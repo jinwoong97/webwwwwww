@@ -3,6 +3,40 @@
   margin: 0;
   padding: 0;
 }
+.wrap {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div {
+  display: block;
+}
+.main {
+  margin: 0 auto;
+  text-align: center;
+}
+.title1 {
+  box-sizing: border-box;
+  margin-top: 40px;
+  font-size: 28px;
+  line-height : 15px;
+}
+.title2 {
+  margin: 15px;
+  font-size: 13px;
+  color: #9b9b9b;
+  line-height : 15px;    
+}
+.head1 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+.head2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #777777;
+}
 /* 플로팅버튼 */
 .toTopScroll {
   position: fixed;
@@ -518,5 +552,18 @@
   }
   .footer div span {
     font-size: 12px;
+  }
+}
+@media (min-width: 1280px) {
+  .main {
+      width: 1200px;
+  }
+}
+@media (max-width: 1024px) {
+  .title1 {
+      font-size: 24px;
+  }
+  .mainBtn {
+    font-size: 11px;
   }
 }
