@@ -1,0 +1,47 @@
+.tit-sub01 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #222;
+    margin: 50px 0 0px 0;
+}
+.tit-sub02 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: #999;
+    margin: 5px 0 45px 0;
+    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+}
+.container009 {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.table_01 td {
+    padding: 4px;
+    color: #555555;
+    font-size: 0.8em;
+    line-height: 16px;
+}
+.gallery_title {
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-family: "Noto Sans KR", "맑은 고딕", 돋움, 굴림;
+    color: rgb(102, 102, 102);
+    line-height: 24px;
+}
+select {
+    font-size: 13px;
+    padding: 4px 5px 4px 5px;
+    border: 1px solid #aaa;
+}
+input {
+    font-size: 13px;
+    padding: 5px 5px 5px 5px;
+    margin: 0 0 0 2px;
+    border: 1px solid #aaa;
+    height: 32px;
+}

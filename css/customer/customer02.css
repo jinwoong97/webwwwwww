@@ -1,0 +1,140 @@
+.communitySection2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.communitySection2 div div:nth-child(1) {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.communitySection2 div div:nth-child(2) {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+/* 묻고답하기 */
+.qna {
+  width: 100%;
+}
+.qna table {
+  width: 100%;
+  /* height: 300px; */
+  border-top: 2px solid black;
+}
+.qna tr {
+  height: 50px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  cursor: pointer;
+}
+.qna td:nth-child(2) {
+  text-align: left;
+  padding-left: 20px;
+}
+.qna table tr:nth-child(1) {
+  background-color: rgb(236, 236, 236);
+}
+.qna td {
+  color: #777;
+  font-size: 14px;
+}
+
+/* search bar */
+.search > div {
+  text-align: right;
+}
+.search {
+  padding-bottom: 50px;
+}
+.search input[type="text"] {
+  height: 25px;
+}
+.search input[type="image"] {
+  border: 1px solid black;
+  width: 26px;
+}
+.search td {
+  padding-left: 3px;
+}
+.search td:nth-child(3) {
+  padding-top: 5px;
+}
+.search img {
+  cursor: pointer;
+}
+.tit-sub01 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  color: #222;
+  margin: 50px 0 0px 0;
+}
+.tit-sub02 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  color: #999;
+  margin: 5px 0 45px 0;
+  font-family: 'Open Sans', Arial, Verdana, sans-serif;
+}
+.container012 {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.table_02 {
+  width: 100%;
+  border-top: 3px #666 solid;
+  border-bottom: 0px #999999 solid;
+  border-left: 0px #e5e5e5 solid;
+}
+.table_02 td {
+  border-bottom: 1px #cccccc solid;
+  border-right: 0px #e5e5e5 solid;
+  padding: 4px;
+  color: #777;
+  font-size: 13px;
+  height: 54px;
+}
+.paging b {
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 3px 10px 3px 10px;
+  background: #000;
+}
+/* .paging a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 3px 10px 3px 10px;
+  background: #000;
+} */
+.paging a {
+  font-size: 14px;
+  color: #555555;
+  font-weight: normal;
+  text-decoration: none;
+  border: 1px solid #aaa;
+  padding: 3px 10px 3px 10px;
+}
+select {
+  font-size: 13px;
+  padding: 4px 5px 4px 5px;
+  border: 1px solid #aaa;
+  padding-right: 10px;
+}
+input {
+  font-size: 13px;
+  padding: 5px 5px 5px 5px;
+  margin: 0;
+  margin-left: 5px; 
+  border: 1px solid #aaa;
+  height: 31px;
+}

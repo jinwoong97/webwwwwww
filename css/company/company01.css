@@ -1,0 +1,186 @@
+.container005 {
+    width: 1200px;
+}
+.container005 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tit-sub01 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #222;
+    margin: 50px 0 0px 0;
+}
+.tit-sub02 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: #999;
+    margin: 5px 0 45px 0;
+    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+}
+.ts01 {
+    color: #444;
+    font-size: 28px;
+    margin: 0px 0 20px 0;
+    font-weight: normal;
+    text-align: center;
+}
+.ts02 {
+    color: #777;
+    font-size: 16px;
+    margin: 0px 0 0 0;
+    font-weight: normal;
+    text-align: center;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img-design {
+    vertical-align: middle;
+}
+.img-design {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}
+.container002 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 60px 0 60px 0;
+}
+.ts03 {
+    color: #444;
+    font-size: 30px;
+    margin: 18px 0 20px 0;
+    font-weight: normal;
+}
+.ts04 {
+    color: #777;
+    font-size: 16px;
+    margin: 0px 0 32px 0;
+    font-weight: normal;
+}
+.tb01 {
+    font-size: 16px;
+    color: #666;
+    padding: 0 0 0 11px;
+    margin: 0 0 5px 0;
+    background: url(/img/company/blet01.png) 0px 10px;
+    background-repeat: no-repeat;
+}
+.tc02 {
+    color: #e01d31;
+    text-decoration: none;
+}
+.img-designk {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: auto;
+    height: 400px;
+}
+.container-sc {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    width: 1025px;
+}
+.co-wrap {
+    text-decoration: none;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 80px 15px 50px 15px;
+}
+.tit-sub03 {
+    text-align: center;
+    font-size: 36px;
+    color: #222;
+    font-weight: normal;
+    margin: 0;
+}
+.tit-sub04 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+    color: #999;
+    margin: 5px 0 40px 0;
+}
+.co-wrap h3 {
+    color: #333;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+.co-wrap h5 {
+    color: #777;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+}
+.co-wrap .co-title {
+    text-align: center;
+}
+.dfs-line01 {
+    margin: 70px -10px 70px -10px;
+    border-top: 1px solid #e5e5e5;
+}
+#history-box {
+    width: 900px;
+    margin: 0 0 0 0;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+}
+#history-box dt {
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    font-size: 34px;
+    color: #333;
+    padding: 20px 0 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+#history-box dd ul li {
+    position: relative;
+    text-align: left;
+    padding: 10px 0 10px 50px;
+    font-size: 15px;
+    list-style: none;
+    color: rgb(124, 121, 121);
+}
+#history-box dd {
+    text-align: left;
+    padding: 20px 0px 0px 100px;
+}
+#history-box dl {
+    font-weight: normal;
+    border-top: 1px dotted #999999;
+}   
+#history-box dd .num {
+    position: absolute;
+    left: 10px;
+}
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#history-box dl:nth-child(1) {
+    border-top: 0
+}
+#history-box dl:nth-child(3) {
+    margin-bottom: 100px;
+}
