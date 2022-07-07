@@ -37,6 +37,9 @@ div {
   font-size: 16px;
   color: #777777;
 }
+.mainHeader1 {
+  font-weight: 500;
+}
 /* 플로팅버튼 */
 .toTopScroll {
   position: fixed;
@@ -186,7 +189,7 @@ div {
   color: #777777;
 }
 .btn2 {
-  width: 150px;
+  width: 100px;
   height: 30px;
   font-size: 14px;
   border: 1px solid black;
@@ -197,6 +200,7 @@ div {
   border: 1px solid rgb(56, 56, 145);
   background-color: rgb(56, 56, 145);
   color: white;
+  transition: 0.3s;
 }
 
 /* 섹션3 */
@@ -206,11 +210,8 @@ div {
   padding-bottom: 50px;
 }
 .proSection1 {
-  padding-top: 20px;
+  padding: 20px 0;
   text-align: center;
-}
-.proSection1 span {
-  color: #777777;
 }
 .proSection2 {
   display: flex;
@@ -372,6 +373,7 @@ div {
 .btn1:hover {
   border: 1px solid rgb(56, 56, 145);
   background-color: rgb(56, 56, 145);
+  transition: 0.3s;
 }
 
 /* 섹션6 */
@@ -585,5 +587,11 @@ div {
 @media (max-width: 1024px) {
   .title1 {
       font-size: 24px;
+  }
+  .mainHeader1 {
+    font-size: 20px;
+  }
+  .mainHeader2 {
+    font-size: 12px;
   }
 }
